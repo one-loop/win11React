@@ -12,8 +12,8 @@ export const EdgeMenu = () => {
 
   const iframes = {
     "https://www.google.com/webhp?igu=1": "Google",
-    "https://bing.com": "Bing",
-    "https://one-loop.github.io/redlookit/": "Email"
+    // "https://bing.com": "Bing",
+    // "https://one-loop.github.io/redlookit/": "Email"
 //     "https://blueedge.me": "blueedge",
 //     "https://andrewstech.me": "\nandrewstech",
 //     "https://blueedge.me/unescape": "Unescape",

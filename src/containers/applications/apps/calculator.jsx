@@ -211,7 +211,7 @@ export const Calculator = () => {
                 9
               </div>
               <div onClick={action} className="oper" data-ch="x">
-                x
+                ×
               </div>
               <div onClick={action} className="oper" data-ch="4">
                 4

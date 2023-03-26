@@ -74,9 +74,9 @@
               "Public Videos": {}
             }
           },
-          "BlueJJJJ": {
+          "Oneloop": {
             "type": "folder",
-            "name": "BlueJJJJ",
+            "name": "Oneloop",
             "info": {
               "spid": "%user%",
               "icon": "user"
@@ -178,7 +178,8 @@
                   "airaedigital": {},
                   "aura-agency": {},
                   "gso-media": {},
-                  "avablog": {}
+                  "avablog": {},
+                  "ScholarHunt": {}
                 }
               },
               "OneDrive": {

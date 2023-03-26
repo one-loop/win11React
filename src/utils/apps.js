@@ -129,7 +129,7 @@ const apps = [
     icon: "mail",
     type: "app",
     action: "EXTERNAL",
-    payload: "mailto:ss17886@nyu.edu",
+    payload: "mailto:saadsifar@nyu.edu",
   },
   {
     name: "Movies",
