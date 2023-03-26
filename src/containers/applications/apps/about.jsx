@@ -9,7 +9,7 @@ export const AboutWin = () => {
     true && import.meta.env.MODE != "development"
   );
   const [timer, setTimer] = useState(
-    localStorage.getItem("closeAbout") == "true" ? 0 : 5
+    localStorage.getItem("closeAbout") == "true" ? 0 : 0
   );
   const dispatch = useDispatch();
   const { t, i18n } = useTranslation();
