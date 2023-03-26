@@ -9,7 +9,7 @@ export const AboutWin = () => {
     true && import.meta.env.MODE != "development"
   );
   const [timer, setTimer] = useState(
-    localStorage.getItem("closeAbout") == "true" ? 0 : 0
+    localStorage.getItem("closeAbout") == "true" ? 0 : 5
   );
   const dispatch = useDispatch();
   const { t, i18n } = useTranslation();
@@ -19,6 +19,7 @@ export const AboutWin = () => {
     localStorage.setItem("closeAbout", true);
     dispatch({ type: "DESKABOUT", payload: false });
   };
+  localStorage.setItem("closeAbout", true);
 
   useEffect(() => {
     if (timer > 0 && !locked && booted) {
