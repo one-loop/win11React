@@ -224,7 +224,7 @@ const apps = [
     name: "Snipping Tool",
     icon: "snip",
     type: "app",
-//   },
+   },
 //   {
 //     name: "Twitter",
 //     icon: "twitter",
